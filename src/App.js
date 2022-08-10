@@ -1,55 +1,55 @@
 
 import './App.css';
 import styles from './1.module.css'
-import japan from './vids/japan.mp4'
-import london from './vids/london.mp4'
-import swiss from './vids/swiss.mp4'
-import osaka from './vids/osaka.mp4'
-import canada from './vids/canada.mp4'
-import moscow from './vids/moscow.mp4'
+import vid from './vids/chemical veins.mp4'
 import Typewriter from 'typewriter-effect'
 import Bounce from 'react-reveal/Bounce'
 
 function App() {
 
-
-    const videos = [japan, london, swiss, osaka, canada]
-
-    const video = Math.floor(Math.random() * videos.length)
-
   return (
     <div className="App">
          <video autoPlay loop muted className={styles.lol}>
-             <source src={videos[video]} type='video/mp4'/>
+             <source src={vid} type='video/mp4'/>
          </video>
         <div className={styles.text}>
-            <Typewriter
+            <a href='https://vk.com/mama_ubei_menya' className={styles.a} target='_blank'>
+                <Typewriter
 
-                onInit={(typewriter)=> {
+                    onInit={(typewriter)=> {
 
-                    typewriter
+                        typewriter
 
-                        .typeString("yrsolanaratonmi")
+                            .typeString("yrsolanaratonmi")
 
-                        .pauseFor(1000)
-                        .start();
-                }}
-            />
+                            .pauseFor(1000)
+                            .start();
+                    }}
+                />
+            </a>
+
         </div>
         <div className={styles.text2}>
-            <Typewriter
+            <a href='https://wwwwwwwww.jodi.org/100cc/index.html' className={styles.b} target='_blank'>
+                <Typewriter
 
-                onInit={(typewriter)=> {
+                    onInit={(typewriter)=> {
 
-                    typewriter
+                        typewriter
 
-                        .typeString("roma, 21 years old")
-                        .pauseFor(1000)
-                        .deleteAll()
-                        .typeString("love pascal programming language")
-                        .start();
-                }}
-            />
+                            .typeString("I am the shipwreck with its scattered and soaked wood littering the ocean like a nest of roaches. The water smothers me patiently, and it waits to feel my body on the ocean floor. I am the captain. I stand on my ship, never leaving its side, for tonight I sleep in a shark's stomach. The tears and rain both hit my face, as I lay on the deck and wait to drown. I am the thunder. Hear me roar as I deafen all. I conduct my orchestra as loud as possible and conclude with a violent smash. I am washing the splinters from within my heart and I scream as it pumps. I let my lungs fill with water as the broken bathtub leaks.")
+                            .pauseFor(1000)
+                            .deleteAll()
+                            .typeString("The cure for suffering which is the collision of consciousness with unconsciousness is not to be submerged in unconsciousness, but to beraised to consciousness and to suffer more. The evil of suffering is cured by more suffering, by higher suffering. Do not take opium, but put salt and vinegar.\n" +
+                                "in the soul's wound, for when you sleep and no longer feel the suffering, you are not. And to be, that is imperative. Do not then close your eyes to the\n" +
+                                "agonizing Sphinx, but look her in the ace, and let her seize you in her mouth,\n" +
+                                "and crunch you with her hundred thousand poisonous teeth, and swallow\n" +
+                                "you. And when she has swallowed you, you will know the sweetness of the taste of suffering.")
+                            .start();
+                    }}
+                />
+            </a>
+
         </div>
         <div className={styles.text2}>
             <Bounce left cascade>
@@ -58,7 +58,7 @@ function App() {
                         <a href='https://github.com/yrsolanaratonmi' target="_blank" rel="noopener"><img className={styles.image} src = 'https://i.ibb.co/6JD6V1L/free-icon-github-889192.png'></img></a>
                     </h2>
                     <h2>
-                        <a href='https://vk.com/mama_ubei_menya' target="_blank" rel="noopener"> <img className={styles.image} src='https://i.ibb.co/wh3VW9R/premium-icon-vk-2673633.png'></img></a>
+                        <a href='https://steamcommunity.com/id/mama_ubei_menya' target="_blank" rel="noopener"> <img className={styles.image} src='https://i.ibb.co/Jsktdjq/steam.png'></img></a>
                     </h2>
                     <h2>
                         <a href='https://t.me/yrsolanaratonmi' target="_blank" rel="noopener"><img className={styles.image} src = 'https://i.ibb.co/1dw561Y/telegram.png'></img></a>
