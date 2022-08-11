@@ -51,22 +51,75 @@ function App() {
             </a>
 
         </div>
-        <div className={styles.text2}>
+        <div className={styles.text_block}>
             <Bounce left cascade>
                 <div>
                     <h2>
                         <a href='https://github.com/yrsolanaratonmi' target="_blank" rel="noopener"><img className={styles.image} src = 'https://i.ibb.co/6JD6V1L/free-icon-github-889192.png'></img></a>
                     </h2>
                     <h2>
-                        <a href='https://steamcommunity.com/id/mama_ubei_menya' target="_blank" rel="noopener"> <img className={styles.image} src='https://i.ibb.co/Jsktdjq/steam.png'></img></a>
+                        <a href='https://t.me/yrsolanaratonmi' target="_blank" rel="noopener"><img className={styles.image} src = 'https://i.ibb.co/1dw561Y/telegram.png'></img></a>
                     </h2>
                     <h2>
-                        <a href='https://t.me/yrsolanaratonmi' target="_blank" rel="noopener"><img className={styles.image} src = 'https://i.ibb.co/1dw561Y/telegram.png'></img></a>
+                        <a href='https://www.instagram.com/yrsolanaratonmi' target="_blank" rel="noopener"><img className={styles.image} src = 'https://i.ibb.co/zRFSRgj/instagram.png'></img></a>
                     </h2>
 
                 </div>
             </Bounce>
         </div>
+
+
+
+
+        <div className={styles.text3}>
+            <Bounce left cascade>
+                <div>
+                    <h2>
+                        <a href='https://www.kinopoisk.ru/user/23079690/' target="_blank" rel="noopener"><img className={styles.my} src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Kinopoisk_colored_favicon.svg/220px-Kinopoisk_colored_favicon.svg.png'></img></a>
+                    </h2>
+                    <h2>
+                        <a href="https://shikimori.one/yrsolanaratonmi" target="_blank"><img className={styles.image} src="https://i.ibb.co/0XdXkhw/24500012-1.png" alt="24500012-1"></img></a>
+                    </h2>
+
+                    <h2>
+                        <a href='https://steamcommunity.com/id/mama_ubei_menya' target="_blank" rel="noopener"> <img className={styles.image} src='https://i.ibb.co/Jsktdjq/steam.png'></img></a>
+                    </h2>
+
+                </div>
+            </Bounce>
+        </div>
+<div className={styles.div}>
+    <div className={styles.int}>
+        <Typewriter
+
+            onInit={(typewriter)=> {
+
+                typewriter
+
+                    .typeString("social")
+
+                    .pauseFor(1000)
+                    .start();
+            }}
+        />
+    </div>
+
+    <div className={styles.int2}>
+        <Typewriter
+
+            onInit={(typewriter)=> {
+
+                typewriter
+
+                    .typeString("internet hobbies")
+
+                    .pauseFor(1000)
+                    .start();
+            }}
+        />
+    </div>
+
+</div>
 
 
 

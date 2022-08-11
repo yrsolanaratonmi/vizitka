@@ -1,0 +1,121 @@
+.lol {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+    height: 100%;
+    pointer-events: none;
+    filter: brightness(20%);
+}
+.text {
+    margin: 0 auto;
+    padding-top: 8%;
+    text-decoration: underline;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(15px + 2vmin);
+    font-family: 'Silkscreen', cursive;
+}
+text:visited{
+    color: red;
+}
+.image {
+    max-height: 70px;
+}
+
+@media screen and (max-width: 600px) {
+    #lol {
+        visibility: hidden;
+        display: none;
+    }
+}
+.text2 {
+
+    margin: 0 auto;
+    padding-top: 50px;
+    text-decoration: underline;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(5px + 2vmin);
+    font-family: 'Silkscreen', cursive;
+}
+.text_block {
+
+    margin: 0 auto;
+    padding-top: 50px;
+    text-decoration: underline;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(5px + 2vmin);
+    font-family: 'Silkscreen', cursive;
+}
+.a {
+    color: red;
+}
+.b {
+    color: white;
+}
+.text3 {
+    display: inline-block;
+    margin-left: 400px;
+    padding-top: 50px;
+    text-decoration: underline;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(5px + 2vmin);
+    font-family: 'Silkscreen', cursive;
+}
+.my {
+    max-height: 65px;
+}
+
+.int {
+    display: inline;
+    position: absolute;
+    left: 33%;
+    margin: 0 auto;
+    color: red;
+    font-size: calc(15px + 2vmin);
+    font-family: 'Silkscreen', cursive;
+    padding-top: 20px;
+    text-decoration: underline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.div {
+    display: flex;
+}
+
+.int2 {
+    position: absolute;
+    left: 53%;
+    color: red;
+    font-size: calc(15px + 2vmin);
+    font-family: 'Silkscreen', cursive;
+    padding-top: 20px;
+    text-decoration: underline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
