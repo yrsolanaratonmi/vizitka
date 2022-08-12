@@ -13,7 +13,7 @@
 }
 .text {
     margin: 0 auto;
-    padding-top: 8%;
+    padding-top: 5%;
     text-decoration: underline;
     color: red;
     display: flex;
@@ -28,13 +28,23 @@ text:visited{
 }
 .image {
     max-height: 70px;
+
 }
 
 @media screen and (max-width: 600px) {
-    #lol {
+    .int2 {
         visibility: hidden;
         display: none;
     }
+    .int {
+        visibility: hidden;
+        display: none;
+    }
+    .text3 {
+        visibility: hidden;
+        display: none;
+    }
+
 }
 .text2 {
 
@@ -93,13 +103,13 @@ text:visited{
 
 .int {
     display: inline;
-    position: absolute;
-    left: 33%;
-    margin: 0 auto;
+    margin-top: 0;
+    margin-left: 33%;
     color: red;
     font-size: calc(15px + 2vmin);
     font-family: 'Silkscreen', cursive;
     padding-top: 20px;
+
     text-decoration: underline;
     padding-left: 10px;
     padding-right: 10px;
@@ -109,8 +119,7 @@ text:visited{
 }
 
 .int2 {
-    position: absolute;
-    left: 53%;
+    margin-left: 12%;
     color: red;
     font-size: calc(15px + 2vmin);
     font-family: 'Silkscreen', cursive;
