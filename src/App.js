@@ -41,14 +41,10 @@ function App() {
 
                             typewriter
 
-                                .typeString("I am the shipwreck with its scattered and soaked wood littering the ocean like a nest of roaches. The water smothers me patiently, and it waits to feel my body on the ocean floor. I am the captain. I stand on my ship, never leaving its side, for tonight I sleep in a shark's stomach. The tears and rain both hit my face, as I lay on the deck and wait to drown. I am the thunder. Hear me roar as I deafen all. I conduct my orchestra as loud as possible and conclude with a violent smash. I am washing the splinters from within my heart and I scream as it pumps. I let my lungs fill with water as the broken bathtub leaks.")
+                                .typeString("roma, 21 yrsold")
                                 .pauseFor(1000)
                                 .deleteAll()
-                                .typeString("The cure for suffering which is the collision of consciousness with unconsciousness is not to be submerged in unconsciousness, but to beraised to consciousness and to suffer more. The evil of suffering is cured by more suffering, by higher suffering. Do not take opium, but put salt and vinegar.\n" +
-                                    "in the soul's wound, for when you sleep and no longer feel the suffering, you are not. And to be, that is imperative. Do not then close your eyes to the\n" +
-                                    "agonizing Sphinx, but look her in the ace, and let her seize you in her mouth,\n" +
-                                    "and crunch you with her hundred thousand poisonous teeth, and swallow\n" +
-                                    "you. And when she has swallowed you, you will know the sweetness of the taste of suffering.")
+                                .typeString("trying to become a frontend software engineer. this is my card ")
                                 .start();
                         }}
                     />
