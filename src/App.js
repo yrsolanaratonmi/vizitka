@@ -44,7 +44,7 @@ function App() {
                                 .typeString("roma, 21 yrsold")
                                 .pauseFor(1000)
                                 .deleteAll()
-                                .typeString("trying to become a frontend software engineer. this is my card ")
+                                .typeString("trying to become a frontend software engineer. this is my card")
                                 .start();
                         }}
                     />
@@ -82,11 +82,11 @@ function App() {
                     <h2>
                         <a href="https://shikimori.one/yrsolanaratonmi" target="_blank"><img className={styles.image} src="https://i.ibb.co/0XdXkhw/24500012-1.png" alt="24500012-1"></img></a>
                     </h2>
-
+        
                     <h2>
                         <a href='https://steamcommunity.com/id/mama_ubei_menya' target="_blank" rel="noopener"> <img className={styles.image} src='https://i.ibb.co/Jsktdjq/steam.png'></img></a>
                     </h2>
-
+        
                 </div>
             </Bounce>
         </div>

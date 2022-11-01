@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .lol {
     position: absolute;
     top: 0;
@@ -33,17 +39,22 @@ text:visited{
 
 @media screen and (max-width: 600px) {
     .int2 {
-        visibility: hidden;
-        display: none;
+        display: none !important;
     }
     .int {
-        visibility: hidden;
-        display: none;
+        display: none !important;
     }
     .text3 {
-        visibility: hidden;
-        display: none;
+        display: none !important;
     }
+    .text2 {
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+
 
 }
 .text2 {
@@ -102,9 +113,6 @@ text:visited{
 }
 
 .int {
-    display: inline;
-    margin-top: 0;
-    margin-left: 33%;
     color: red;
     font-size: calc(15px + 2vmin);
     font-family: 'Silkscreen', cursive;
@@ -116,10 +124,13 @@ text:visited{
 }
 .div {
     display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    gap: 200px;
 }
 
 .int2 {
-    margin-left: 12%;
+
     color: red;
     font-size: calc(15px + 2vmin);
     font-family: 'Silkscreen', cursive;
